@@ -29,10 +29,10 @@
         app:layout_constraintTop_toTopOf="@+id/firstNameEditText" />
 
     <TextView
-        android:id="@+id/firstNameErrorText"
+        android:id="@+id/firstNameErrorTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="error message"
+        android:text=""
         android:textColor="#FF0000"
         app:layout_constraintTop_toBottomOf="@+id/firstNameEditText"
         app:layout_constraintEnd_toEndOf="@+id/firstNameEditText" />
@@ -41,8 +41,8 @@
         android:id="@+id/lastNameEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@string/editTextVerticalMargin"
-        android:layout_marginEnd="@string/editTextHorizontalMargin"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="64dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text=""
@@ -60,10 +60,10 @@
         app:layout_constraintTop_toTopOf="@+id/lastNameEditText" />
 
     <TextView
-        android:id="@+id/lastNameErrorText"
+        android:id="@+id/lastNameErrorTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="error message"
+        android:text=""
         android:textColor="#FF0000"
         app:layout_constraintTop_toBottomOf="@+id/lastNameEditText"
         app:layout_constraintEnd_toEndOf="@+id/lastNameEditText" />
@@ -72,8 +72,8 @@
         android:id="@+id/emailEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@string/editTextVerticalMargin"
-        android:layout_marginEnd="@string/editTextHorizontalMargin"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="64dp"
         android:ems="10"
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
@@ -90,10 +90,10 @@
         app:layout_constraintTop_toTopOf="@+id/emailEditText" />
 
     <TextView
-        android:id="@+id/emailErrorText"
+        android:id="@+id/emailErrorTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="error message"
+        android:text=""
         android:textColor="#FF0000"
         app:layout_constraintTop_toBottomOf="@+id/emailEditText"
         app:layout_constraintEnd_toEndOf="@+id/emailEditText" />
@@ -102,8 +102,8 @@
         android:id="@+id/passwordEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@string/editTextVerticalMargin"
-        android:layout_marginEnd="@string/editTextHorizontalMargin"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="64dp"
         android:ems="10"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
@@ -120,10 +120,10 @@
         app:layout_constraintTop_toTopOf="@+id/passwordEditText" />
 
     <TextView
-        android:id="@+id/passwordErrorText"
+        android:id="@+id/passwordErrorTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="error message"
+        android:text=""
         android:textColor="#FF0000"
         app:layout_constraintTop_toBottomOf="@+id/passwordEditText"
         app:layout_constraintEnd_toEndOf="@+id/passwordEditText" />
@@ -132,8 +132,8 @@
         android:id="@+id/passwordConfirmEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@string/editTextVerticalMargin"
-        android:layout_marginEnd="@string/editTextHorizontalMargin"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="64dp"
         android:ems="10"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
@@ -150,10 +150,10 @@
         app:layout_constraintTop_toTopOf="@+id/passwordConfirmEditText" />
 
     <TextView
-        android:id="@+id/passwordConfirmErrorText"
+        android:id="@+id/passwordConfirmErrorTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="error message"
+        android:text=""
         android:textColor="#FF0000"
         app:layout_constraintTop_toBottomOf="@+id/passwordConfirmEditText"
         app:layout_constraintEnd_toEndOf="@+id/passwordConfirmEditText" />

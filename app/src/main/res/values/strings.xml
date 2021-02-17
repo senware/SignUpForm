@@ -5,7 +5,10 @@
     <string name="email">E-mail:</string>
     <string name="password">Password:</string>
     <string name="passwordConfirm">Confirm Password:</string>
-    <string name="editTextVerticalMargin">48dp</string>
-    <string name="editTextHorizontalMargin">64dp</string>
     <string name="submitButtonText">Submit</string>
+
+    <string name="firstNameErrorMsg">Please enter a first name.</string>
+    <string name="lastNameErrorMsg">Please enter a last name.</string>
+    <string name="emailErrorMsg">Please enter an email.</string>
+    <string name="passwordErrorMsg">Passwords do not match.</string>
 </resources>
