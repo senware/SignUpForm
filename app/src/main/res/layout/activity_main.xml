@@ -10,7 +10,7 @@
         android:id="@+id/firstNameEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="128dp"
+        android:layout_marginTop="96dp"
         android:layout_marginEnd="64dp"
         android:ems="10"
         android:inputType="textPersonName"
@@ -112,5 +112,14 @@
         app:layout_constraintBottom_toBottomOf="@+id/passwordConfirmEditText"
         app:layout_constraintEnd_toStartOf="@+id/passwordConfirmEditText"
         app:layout_constraintTop_toTopOf="@+id/passwordConfirmEditText" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/submitButtonText"
+        app:layout_constraintEnd_toEndOf="@+id/passwordConfirmEditText"
+        app:layout_constraintTop_toBottomOf="@+id/passwordConfirmEditText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

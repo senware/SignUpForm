@@ -7,4 +7,5 @@
     <string name="passwordConfirm">Confirm Password:</string>
     <string name="editTextVerticalMargin">48dp</string>
     <string name="editTextHorizontalMargin">64dp</string>
+    <string name="submitButtonText">Submit</string>
 </resources>
