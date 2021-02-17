@@ -5,4 +5,6 @@
     <string name="email">E-mail:</string>
     <string name="password">Password:</string>
     <string name="passwordConfirm">Confirm Password:</string>
+    <string name="editTextVerticalMargin">48dp</string>
+    <string name="editTextHorizontalMargin">64dp</string>
 </resources>
